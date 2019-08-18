@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4717785200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.start()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add product to the basket",
+        "description": "",
+        "id": "tests-for-task-number-1;add-product-to-the-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 733957500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1021856700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I go to test site",
+            "match": {
+              "location": "Stepdefs.iGoToTestSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 502488900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I choose \"1\" task",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                }
+              ],
+              "location": "Stepdefs.iChooseTask(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90020800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add \"2\" amount for \"Okulary\" product with \"numbers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 7
+                },
+                {
+                  "val": "Okulary",
+                  "offset": 22
+                },
+                {
+                  "val": "numbers",
+                  "offset": 45
+                }
+              ],
+              "location": "Stepdefs.iAddAmountForProduct(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123608700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click add product \"Okulary\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Okulary",
+                  "offset": 21
+                }
+              ],
+              "location": "Stepdefs.iClickAddProductButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99105100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check that product \"Okulary\" is in the basket with amount \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Okulary",
+                  "offset": 22
+                },
+                {
+                  "val": "2",
+                  "offset": 61
+                }
+              ],
+              "location": "Stepdefs.iCheckThatProductIsInTheBasketWithAmount(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3442082400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.start()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Add product with arrows and Remove product from the basket",
+        "description": "",
+        "id": "tests-for-task-number-1;add-product-with-arrows-and-remove-product-from-the-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 622643500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 480808300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I go to test site",
+            "match": {
+              "location": "Stepdefs.iGoToTestSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 565977700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I choose \"1\" task",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                }
+              ],
+              "location": "Stepdefs.iChooseTask(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113552200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I add \"2\" amount for \"Okulary\" product with \"arrows\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 7
+                },
+                {
+                  "val": "Okulary",
+                  "offset": 22
+                },
+                {
+                  "val": "arrows",
+                  "offset": 45
+                }
+              ],
+              "location": "Stepdefs.iAddAmountForProduct(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80095700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click add product \"Okulary\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Okulary",
+                  "offset": 21
+                }
+              ],
+              "location": "Stepdefs.iClickAddProductButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86953500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I check that product \"Okulary\" is in the basket with amount \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Okulary",
+                  "offset": 22
+                },
+                {
+                  "val": "2",
+                  "offset": 61
+                }
+              ],
+              "location": "Stepdefs.iCheckThatProductIsInTheBasketWithAmount(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57772800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click button \"Usuń\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuń",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefs.iClickButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21480500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I check that basket is empty",
+            "match": {
+              "location": "Stepdefs.iCheckThatBasketIsEmpty()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Tests for task number 1",
+    "description": "",
+    "id": "tests-for-task-number-1",
+    "keyword": "Feature",
+    "uri": "1_task.feature"
+  }
+]

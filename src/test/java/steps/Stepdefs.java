@@ -34,9 +34,9 @@ public class Stepdefs extends TestBase {
     }
 
 
-    @And("^I add \"([^\"]*)\" amount for \"([^\"]*)\" product$")
-    public void iAddAmountForProduct(String amount, String product){
-        taskOne.particularProductAmountFillIn(product, amount);
+    @And("^I add \"([^\"]*)\" amount for \"([^\"]*)\" product with \"([^\"]*)\"$")
+    public void iAddAmountForProduct(String amount, String product, String howToFill){
+        taskOne.particularProductAmountFillIn(product, amount, howToFill);
     }
 
     @And("^I click add product \"([^\"]*)\" button$")
@@ -46,7 +46,17 @@ public class Stepdefs extends TestBase {
 
     @Then("^I check that product \"([^\"]*)\" is in the basket with amount \"([^\"]*)\"$")
     public void iCheckThatProductIsInTheBasketWithAmount(String product, String amount){
-        taskOne.isProductSumInBusketCorrect(amount);
+        taskOne.isProductSumInBasketCorrect(amount);
         taskOne.isProductInBasketAsNeed(product, amount);
+    }
+
+    @When("^I click button \"([^\"]*)\"$")
+    public void iClickButton(String buttonName){
+        general.buttonClick(buttonName);
+    }
+
+    @Then("^I check that basket is empty$")
+    public void iCheckThatBasketIsEmpty() {
+        taskOne.isProductSumInBasketCorrect("0");
     }
 }
