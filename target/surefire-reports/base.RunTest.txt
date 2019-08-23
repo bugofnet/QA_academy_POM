@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: base.RunTest
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.173 sec - in base.RunTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.475 sec - in base.RunTest

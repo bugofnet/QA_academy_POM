@@ -1,0 +1,6 @@
+# Ignore IDEA
+.idea
+src/main/
+target/classes/
+target/cucumber-html-reports/embeddings/
+target/generated-test-sources/

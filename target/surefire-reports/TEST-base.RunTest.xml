@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="base.RunTest" time="13.173" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="base.RunTest" time="20.475" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -64,12 +64,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given I go to test site" classname="Scenario: Add product to the basket" time="0.002"/>
+  <testcase name="Given I go to test site" classname="Scenario: Add product to the basket" time="0.001"/>
   <testcase name="When I choose &quot;1&quot; task" classname="Scenario: Add product to the basket" time="0"/>
   <testcase name="And I add &quot;2&quot; amount for &quot;Okulary&quot; product with &quot;numbers&quot;" classname="Scenario: Add product to the basket" time="0"/>
   <testcase name="And I click add product &quot;Okulary&quot; button" classname="Scenario: Add product to the basket" time="0"/>
   <testcase name="Then I check that product &quot;Okulary&quot; is in the basket with amount &quot;2&quot;" classname="Scenario: Add product to the basket" time="0"/>
-  <testcase name="Scenario: Add product to the basket" classname="Scenario: Add product to the basket" time="0.734"/>
+  <testcase name="Scenario: Add product to the basket" classname="Scenario: Add product to the basket" time="0.683"/>
   <testcase name="Given I go to test site" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
   <testcase name="When I choose &quot;1&quot; task" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
   <testcase name="And I add &quot;2&quot; amount for &quot;Okulary&quot; product with &quot;arrows&quot;" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
@@ -77,5 +77,15 @@
   <testcase name="Then I check that product &quot;Okulary&quot; is in the basket with amount &quot;2&quot;" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
   <testcase name="When I click button &quot;Usuń&quot;" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
   <testcase name="Then I check that basket is empty" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
-  <testcase name="Scenario: Add product with arrows and Remove product from the basket" classname="Scenario: Add product with arrows and Remove product from the basket" time="0.623"/>
+  <testcase name="Scenario: Add product with arrows and Remove product from the basket" classname="Scenario: Add product with arrows and Remove product from the basket" time="0.626"/>
+  <testcase name="Given I go to test site" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
+  <testcase name="When I choose &quot;1&quot; task" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I add &quot;50&quot; amount for &quot;Okulary&quot; product with &quot;numbers&quot;" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I click add product &quot;Okulary&quot; button" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I add &quot;50&quot; amount for &quot;Kamera&quot; product with &quot;numbers&quot;" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I click add product &quot;Kamera&quot; button" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I add &quot;1&quot; amount for &quot;Poduszka&quot; product with &quot;numbers&quot;" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I click add product &quot;Poduszka&quot; button" classname="Scenario: Add 51 product to the basket and check pop up message" time="0.001"/>
+  <testcase name="Then I see alert message &quot;Łączna ilość produktów w koszyku nie może przekroczyć 100.&quot;" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
+  <testcase name="Scenario: Add 51 product to the basket and check pop up message" classname="Scenario: Add 51 product to the basket and check pop up message" time="0.904"/>
 </testsuite>
