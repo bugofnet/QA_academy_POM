@@ -16,7 +16,7 @@ Feature: Tests for task number 1
     When I click button "Usuń"
     Then I check that basket is empty
 
-  Scenario: Add 51 product to the basket and check pop up message
+  Scenario: Add 101 product to the basket and check pop up message
     Given I go to test site
     When I choose "1" task
     And I add "50" amount for "Okulary" product with "numbers"
