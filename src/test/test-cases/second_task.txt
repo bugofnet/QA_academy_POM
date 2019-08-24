@@ -1,0 +1,35 @@
+Preconditions:
+There is a list of all 3 products on a page (Sport, Elektronika, Firma i usługi)
+and text in the input "Proszę wybrać kategorie"
+
+1. Checking hints system
+
+- Click on Drop-Down with text "Proszę wybrać kategorie"
+    Expected result - drop down with list of categories: Sport, Elektronika, Firma i usługi
+- Type "sp" into search input
+    Expected result - drop down contains only Sport
+- Type "El" into search input
+    Expected result - drop down contains only Elektronika
+- Type "t" into search input
+    Expected result - drop down contains Sport and Elektronika
+- Type "usł" into search input
+    Expected result - drop down contains only Firma i usługi
+- Type "usl" into search input
+    Expected result - drop down contains only Firma i usługi
+- Type "zz"  into search input
+    Expected result - No results found - text
+
+
+2. Checking product filtering after selecting
+
+- Click on Drop-Down with text "Proszę wybrać kategorie"
+    Expected result - drop down with list of categories: Sport, Elektronika, Firma i usługi
+- Select Sport
+    Expected result - There are only product with category Sport on the page,
+                      Sport - value of input select
+- Select Elektronika
+    Expected result - There are only product with category Elektronika on the page
+                      Elektronika - value of input select
+- Firma i usługi
+    Expected result - There are only product with category Firma i usługi on the page
+                      Firma i usługi - value of input select
