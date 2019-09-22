@@ -29,8 +29,9 @@ public class Stepdefs extends TestBase {
 
 
 	@Before
-	public void start() {
+	public void start(Scenario scenario) {
 		super.start();
+		LOG.info("Scenario " + scenario.getName() + " is started." );
 	}
 
 	@After
