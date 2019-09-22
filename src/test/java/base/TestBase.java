@@ -19,15 +19,17 @@ public class TestBase {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--test-type");
+		options.addArguments("--headless");
+		options.addArguments("window-size=1920,1080");
 		ChromeDriverService chromeDriverService = ChromeDriverService.createDefaultService();
 		driver = new ChromeDriver(chromeDriverService, options);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
+//		driver.manage().window().maximize();
 		taskOne = PageFactory.initElements(driver, TaskOne.class);
 		general = PageFactory.initElements(driver, General.class);
 	}
 
-	public void finish() {
+	protected void finish() {
 		if (driver != null) {
 			driver.quit();
 		}

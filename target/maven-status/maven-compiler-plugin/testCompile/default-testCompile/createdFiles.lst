@@ -1,6 +1,6 @@
 base\TestBase.class
-base\RunTest.class
 pages\TaskOne.class
 helpers\PropFileRead.class
-pages\General.class
 steps\Stepdefs.class
+base\RunTest.class
+pages\General.class
