@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="base.RunTest" time="20.475" tests="24" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="base.RunTest" time="28.38" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\apps\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win32\bin;C:\Program Files\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win64\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\apps\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\nodejs\;C:\apps\putty;C:\WINDOWS\System32\OpenSSH\;C:\apps\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files (x86)\PICT\;C:\Program Files\PostgresPro\11\bin;C:\Users\Siarhei Manko\scoop\shims;C:\Users\Siarhei Manko\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_191\bin;C:\apps\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\Siarhei Manko\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win32\bin;C:\Program Files\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win64\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\apps\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\nodejs\;C:\apps\putty;C:\WINDOWS\System32\OpenSSH\;C:\apps\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files (x86)\PICT\;C:\Program Files\PostgresPro\11\bin;C:\Users\Siarhei Manko\.windows-build-tools\python27\;C:\Users\Siarhei Manko\scoop\shims;C:\Users\Siarhei Manko\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_191\bin;C:\apps\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\Siarhei Manko\AppData\Roaming\npm;C:\Users\Siarhei Manko\AppData\Local\Programs\Microsoft VS Code\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="maven.conf" value="C:\apps\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -64,12 +64,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given I go to test site" classname="Scenario: Add product to the basket" time="0.001"/>
+  <testcase name="Given I go to test site" classname="Scenario: Add product to the basket" time="0.002"/>
   <testcase name="When I choose &quot;1&quot; task" classname="Scenario: Add product to the basket" time="0"/>
   <testcase name="And I add &quot;2&quot; amount for &quot;Okulary&quot; product with &quot;numbers&quot;" classname="Scenario: Add product to the basket" time="0"/>
   <testcase name="And I click add product &quot;Okulary&quot; button" classname="Scenario: Add product to the basket" time="0"/>
   <testcase name="Then I check that product &quot;Okulary&quot; is in the basket with amount &quot;2&quot;" classname="Scenario: Add product to the basket" time="0"/>
-  <testcase name="Scenario: Add product to the basket" classname="Scenario: Add product to the basket" time="0.683"/>
+  <testcase name="Scenario: Add product to the basket" classname="Scenario: Add product to the basket" time="0.562"/>
   <testcase name="Given I go to test site" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
   <testcase name="When I choose &quot;1&quot; task" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
   <testcase name="And I add &quot;2&quot; amount for &quot;Okulary&quot; product with &quot;arrows&quot;" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
@@ -77,15 +77,15 @@
   <testcase name="Then I check that product &quot;Okulary&quot; is in the basket with amount &quot;2&quot;" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
   <testcase name="When I click button &quot;Usuń&quot;" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
   <testcase name="Then I check that basket is empty" classname="Scenario: Add product with arrows and Remove product from the basket" time="0"/>
-  <testcase name="Scenario: Add product with arrows and Remove product from the basket" classname="Scenario: Add product with arrows and Remove product from the basket" time="0.626"/>
-  <testcase name="Given I go to test site" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
-  <testcase name="When I choose &quot;1&quot; task" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
-  <testcase name="And I add &quot;50&quot; amount for &quot;Okulary&quot; product with &quot;numbers&quot;" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
-  <testcase name="And I click add product &quot;Okulary&quot; button" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
-  <testcase name="And I add &quot;50&quot; amount for &quot;Kamera&quot; product with &quot;numbers&quot;" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
-  <testcase name="And I click add product &quot;Kamera&quot; button" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
-  <testcase name="And I add &quot;1&quot; amount for &quot;Poduszka&quot; product with &quot;numbers&quot;" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
-  <testcase name="And I click add product &quot;Poduszka&quot; button" classname="Scenario: Add 51 product to the basket and check pop up message" time="0.001"/>
-  <testcase name="Then I see alert message &quot;Łączna ilość produktów w koszyku nie może przekroczyć 100.&quot;" classname="Scenario: Add 51 product to the basket and check pop up message" time="0"/>
-  <testcase name="Scenario: Add 51 product to the basket and check pop up message" classname="Scenario: Add 51 product to the basket and check pop up message" time="0.904"/>
+  <testcase name="Scenario: Add product with arrows and Remove product from the basket" classname="Scenario: Add product with arrows and Remove product from the basket" time="0.555"/>
+  <testcase name="Given I go to test site" classname="Scenario: Add 101 product to the basket and check pop up message" time="0"/>
+  <testcase name="When I choose &quot;1&quot; task" classname="Scenario: Add 101 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I add &quot;50&quot; amount for &quot;Okulary&quot; product with &quot;numbers&quot;" classname="Scenario: Add 101 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I click add product &quot;Okulary&quot; button" classname="Scenario: Add 101 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I add &quot;50&quot; amount for &quot;Kamera&quot; product with &quot;numbers&quot;" classname="Scenario: Add 101 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I click add product &quot;Kamera&quot; button" classname="Scenario: Add 101 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I add &quot;1&quot; amount for &quot;Poduszka&quot; product with &quot;numbers&quot;" classname="Scenario: Add 101 product to the basket and check pop up message" time="0"/>
+  <testcase name="And I click add product &quot;Poduszka&quot; button" classname="Scenario: Add 101 product to the basket and check pop up message" time="0"/>
+  <testcase name="Then I see alert message &quot;Łączna ilość produktów w koszyku nie może przekroczyć 100.&quot;" classname="Scenario: Add 101 product to the basket and check pop up message" time="0"/>
+  <testcase name="Scenario: Add 101 product to the basket and check pop up message" classname="Scenario: Add 101 product to the basket and check pop up message" time="0.551"/>
 </testsuite>
